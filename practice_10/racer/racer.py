@@ -48,7 +48,6 @@ class Enemy(pygame.sprite.Sprite):
 class Coin(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        # Замените путь на вашу картинку монеты
         self.image = pygame.image.load("practice_10/racer/images/Coin.png") 
         self.rect = self.image.get_rect()
         self.rect.center = (random.randint(40, SCREEN_WIDTH-40), 0)
