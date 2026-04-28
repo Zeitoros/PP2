@@ -1,0 +1,18 @@
+[
+    {
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "jane@work.com",
+        "birthday": "1995-05-20",
+        "group": "Work",
+        "phones": ["+77001112233:work", "+77019998877:mobile"]
+    },
+    {
+        "first_name": "Rick",
+        "last_name": "Crower",
+        "email": "rick@friend.com",
+        "birthday": "1995-11-12",
+        "group": "Friend",
+        "phones": ["+77013312267:work", "+77059298127:mobile"]
+    }
+]
