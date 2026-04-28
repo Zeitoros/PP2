@@ -122,8 +122,8 @@ def main():
             score += food.weight
             snake.new_blocks += food.weight # Добавляем сегменты согласно весу
             
-            # Повышение уровня за каждые 5 очков
-            if score // 5 >= level:
+            # Повышение уровня за каждые 3 очков
+            if score // 3 >= level:
                 level += 1
                 current_fps += 1
             
